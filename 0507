@@ -1,0 +1,3 @@
+k=input("enter a list of word: ").split()
+m=[word for word in k if len(word)>5]
+print(m)

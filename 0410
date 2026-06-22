@@ -1,0 +1,13 @@
+n=int(input("nhap so can kiem tra: "))
+k=1
+l=0
+while k<n+1:
+    if n%k==0:
+        l=l+1
+        k=k+1
+    else:
+        k=k+1
+if l==2:
+    print("la so nguyen to")
+else:
+    print("khong la so nguyen to")

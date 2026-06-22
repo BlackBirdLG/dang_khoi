@@ -1,0 +1,6 @@
+n=input("enter a list of words: ")
+m=input("enter a list of words: ")
+k=n.split()
+l=m.split()
+intersection=list(set(k).intersection(l))
+print(intersection)

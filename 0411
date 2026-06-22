@@ -1,0 +1,3 @@
+n=list(map(int, input("nhap day so: ").split()))
+print(sum(n))
+print(sum(n)/len(n))

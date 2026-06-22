@@ -1,0 +1,7 @@
+def area(n, h):
+    k=n*h/2
+    return [k]
+k=int(input())
+i=int(input())
+l=area(k, i)
+print(l)

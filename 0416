@@ -1,0 +1,2 @@
+n=int(input("nhap so phut: "))
+print("so gio la: ", n//60)

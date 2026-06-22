@@ -1,0 +1,11 @@
+n=input("nhap chuoi: ")
+k=len(n)
+d=0
+while d<k:
+    if n[d]!=n[k-d-1]:
+        print("false")
+        break
+    else:
+        d=d+1
+if d==k:
+    print("true")

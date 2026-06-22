@@ -1,0 +1,4 @@
+n=input("enter a string: ")
+m=n.split()
+sorted_words=sorted(m)
+print(sorted_words)

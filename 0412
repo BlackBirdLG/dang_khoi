@@ -1,0 +1,3 @@
+n=float(input("nhap nhiet do: "))
+k=n+273
+print(k)

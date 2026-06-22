@@ -1,0 +1,3 @@
+d=int(input())
+w=int(input())
+print(d*w)

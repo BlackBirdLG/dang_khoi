@@ -1,0 +1,7 @@
+n=int(input("enter a number: "))
+k=0
+while n>1:
+    t=n%10
+    n=(n-t)/10
+    k+=t
+print(k)

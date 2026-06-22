@@ -1,0 +1,4 @@
+n=list(map(int, input("enter a list of number: ").split()))
+even_list=[num for num in n if num%2==0]
+print(even_list)
+        

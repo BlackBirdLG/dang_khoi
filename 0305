@@ -1,0 +1,2 @@
+n=input("nhau mot sau ki tu: ")
+print(n[::-1])

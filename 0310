@@ -1,0 +1,6 @@
+n=int(input("nhap so dau tien: "))
+m=int(input("nhap so thu hai: "))
+k=n
+n=m
+m=k
+print("gia tri sau dao la: ", n, m)

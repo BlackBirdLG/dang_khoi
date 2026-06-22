@@ -1,0 +1,3 @@
+n=int(input("nhap so ngay: "))
+print("so nam la: ", n//365)
+print("so tuan la: ", n//7)

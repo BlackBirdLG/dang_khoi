@@ -1,0 +1,8 @@
+n=int(input("nhap so tien ban dau: "))
+t=n
+k=int(input("nhap lai suat: "))
+l=int(input("nhap so nam: "))
+while l>0:
+    n=n*(1+k/100)
+    l=l-1
+print("so tien lai la: ", n-t)
